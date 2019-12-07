@@ -1,0 +1,8 @@
+@value whiteBasic from '../../../css/colors.css';
+@value greenBasic from '../../../css/colors.css';
+
+.stages{
+  min-width: 450px;
+  padding-top: 70px;
+  background: greenBasic;
+}

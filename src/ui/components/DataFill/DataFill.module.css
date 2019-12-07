@@ -1,0 +1,144 @@
+@value whiteBasic from '../../../css/colors.css';
+@value darkGreyBasic from '../../../css/colors.css';
+@value greenBasic from '../../../css/colors.css';
+@value lightGreyBasic from '../../../css/colors.css';
+@value greyBasic from '../../../css/colors.css';
+@value pinkBasic from '../../../css/colors.css';
+
+.dataFill{
+  padding: 60px 100px 40px;
+  background: whiteBasic;
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-family: 'Spectral Regular';
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 1.5px;
+  padding-right: 100px;
+  color: darkGreyBasic;
+  margin-bottom: 25px;
+}
+
+.blockTitle{
+  font-family: 'Spectral Regular';
+  font-size: 18px;
+  line-height: 20px;
+  color: darkGreyBasic;
+  letter-spacing: .5px;
+  margin-bottom: 7px;
+}
+
+.line{
+  width: 100%;
+  height: 2px;
+  background: lightGreyBasic;
+  opacity: .5;
+}
+
+.inputs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 25px 80px 10px 0;
+}
+
+.inputBlock, .inputBlockPhoto{
+  display: flex;
+  flex-direction: column;
+  width: 185px;
+}
+
+.inputBlockPhoto{
+  flex-direction: row;
+  align-items: center;
+}
+
+.photoLabel{
+  margin-left: 15px;
+  font-family: 'Spectral Regular';
+  letter-spacing: .5px;
+}
+
+.switchBlock{
+  width: 185px;
+}
+
+.label, .labelEmpty{
+  font-size: 12px;
+  padding-left: 5px;
+  font-family: 'Spectral Regular';
+  letter-spacing: .5px;
+  color: darkGreyBasic;
+}
+
+.labelEmpty{
+  color: red;
+}
+
+.input{
+  margin: 5px 0 10px;
+  height: 30px;
+  border-radius: 10px;
+  background: greyBasic;
+  border: 1px solid greenBasic;
+  color: darkGreyBasic;
+  padding-left: 10px;
+  font-family: 'Spectral Regular';
+  letter-spacing: .5px;
+}
+
+.switchButtons{
+  margin: 5px 0 15px;
+  border: 1px solid greenBasic;
+  width: fit-content;
+}
+
+.switchBtn{
+  padding: 10px 15px;
+  color: greenBasic;
+  background: whiteBasic;
+  cursor: pointer;
+}
+
+.switchOn{
+  padding: 10px 15px;
+  color: whiteBasic;
+  background: greenBasic;
+  cursor: pointer;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.BackBtn, .NextBtn{
+  padding: 10px 50px;
+  border-radius: 25px;
+  transition: all .3s ease-in;
+  cursor: pointer;
+}
+
+.BackBtn{
+  border: 1px solid pinkBasic;
+  background: whiteBasic;
+  color: pinkBasic;
+}
+
+.BackBtn:hover{
+  color: greenBasic;
+  border: 1px solid greenBasic;
+}
+
+.NextBtn{
+  background: pinkBasic;
+  color: whiteBasic;
+}
+
+.NextBtn:hover{
+  background: greenBasic;
+}

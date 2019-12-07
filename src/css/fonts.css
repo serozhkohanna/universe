@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Spectral Bold';
+  src: url('./font/Spectral-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spectral Bold-Italic';
+  src: url('./font/Spectral-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spectral Extra-Bold';
+  src: url('./font/Spectral-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spectral Extra-Bold-Italic';
+  src: url('./font/Spectral-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spectral Extra-Light';
+  src: url('./font/Spectral-ExtraLighgt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spectral Extra-Light-Italic';
+  src: url('./font/Spectral-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spectral Italic';
+  src: url('./font/Spectral-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spectral Light';
+  src: url('./font/Spectral-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spectral Light-Italic';
+  src: url('./font/Spectral-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spectral Medium';
+  src: url('./font/Spectral-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spectral Medium-Italic';
+  src: url('./font/Spectral-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spectral Regular';
+  src: url('./font/Spectral-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spectral Semibold';
+  src: url('./font/Spectral-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spectral Semibold-Italic';
+  src: url('./font/Spectral-SemiboldItalic.ttf') format('truetype');
+}

@@ -1,0 +1,8 @@
+@value whiteBasic from '../../../css/colors.css';
+@value greenBasic from '../../../css/colors.css';
+
+.sidebar{
+  min-width: 290px;
+  max-width: 290px;
+  border-right: 1px solid greenBasic;
+}
