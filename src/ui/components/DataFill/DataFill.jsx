@@ -9,8 +9,8 @@ import Confirm from '.././Confirm/Confirm';
 import { setData } from '../../../actions/setData.js';
 import { NAME, LAST_NAME, POSITION, EMAIL, PROJECT_NAME } from '../../../constants/inputValue.js';
 
-class DataFill extends Component{
-  state={
+class DataFill extends Component {
+  state = {
     shareViaLink: true,
     name: '',
     lastName: '',
@@ -39,7 +39,7 @@ class DataFill extends Component{
     }
   }
 
-  handlePrevClick = () =>{
+  handlePrevClick = () => {
     const { history } = this.props;
     const value = Object.values(this.state).every(item => item);
 
@@ -51,7 +51,7 @@ class DataFill extends Component{
   handleInputChange = value => event => {
     switch (value) {
       case NAME:
-         return this.setState({
+        return this.setState({
           name: event.target.value
         })
       case LAST_NAME:
@@ -61,15 +61,16 @@ class DataFill extends Component{
       case POSITION:
         return this.setState({
           position: event.target.value
-       })
+        })
       case EMAIL:
         return this.setState({
           email: event.target.value
-      })
+        })
       case PROJECT_NAME:
         return this.setState({
           projectName: event.target.value
-      })
+        })
+      // default: 'none'
     }
   }
 
@@ -80,13 +81,13 @@ class DataFill extends Component{
       this.setState({
         isModalOpen: data
       })
-    }else {
+    } else {
       history.push(HOME)
     }
   }
 
-  render(){
-    const { shareViaLink, email, name, isModalOpen } = this.state;
+  render() {
+    const { shareViaLink, isModalOpen } = this.state;
 
     return <section className={styles.dataFill}>
       <h1 className={styles.title}>we need some data to start your project</h1>
@@ -107,7 +108,7 @@ class DataFill extends Component{
             <input onBlur={this.handleInputChange(POSITION)} className={styles.input} />
           </div>
           <div className={styles.inputBlockPhoto}>
-            <input className={styles.inputPhoto} src={cameraIcon} type='image' />
+            <input className={styles.inputPhoto} src={cameraIcon} type='image' alt="photo" />
             <p className={styles.photoLabel}>Upload a photo</p>
           </div>
           <div className={styles.inputBlock}>
@@ -142,8 +143,8 @@ class DataFill extends Component{
   }
 }
 
-const mapStateToPtops = ({data}) =>{
-  return{
+const mapStateToPtops = ({ data }) => {
+  return {
     data
   }
 }

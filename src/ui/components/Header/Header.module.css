@@ -1,68 +1,68 @@
 @value darkGreyBasic from '../../../css/colors.css';
 @value pinkBasic from '../../../css/colors.css';
 
-.header{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
-.content{
-    max-width: 1200px;
-    width: 100%;
-    padding: 30px 60px;
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    color: darkGreyBasic;
+.content {
+	max-width: 1200px;
+	width: 100%;
+	padding: 30px 60px;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	color: darkGreyBasic;
 }
 
-.logo{
-    position: absolute;
-    left: 60px;
-    display: flex;
-    font-family: 'Spectral Regular';
+.logo {
+	position: absolute;
+	left: 60px;
+	display: flex;
+	font-family: 'Spectral Regular';
 }
 
-.time{
-    transform: rotate(-90deg);
-    display: flex;
-    align-items: center;
-    font-weight: 300;
+.time {
+	transform: rotate(-90deg);
+	display: flex;
+	align-items: center;
+	font-weight: 300;
 }
 
-.universe{
-    display: flex;
-    align-items: flex-end;
-    font-size: 36px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
+.universe {
+	display: flex;
+	align-items: flex-end;
+	font-size: 36px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
 }
 
-.menu{
-    display: flex;
-    align-items: center;
-    margin-right: 70px;
-    font-family: system-ui;
+.menu {
+	display: flex;
+	align-items: center;
+	margin-right: 70px;
+	font-family: system-ui;
 }
 
-.menuItem{
-    text-transform: uppercase;
-    margin: 0 35px;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-    font-weight: 500;
+.menuItem {
+	text-transform: uppercase;
+	margin: 0 35px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-weight: 500;
 }
 
-.startedBtn{
-    background: pinkBasic;
-    border-radius: 20px;
-    color: white;
-    padding: 10px 35px;
-    align-self: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 14px;
-    font-family: 'Spectral Semibold';
+.startedBtn {
+	background: pinkBasic;
+	border-radius: 20px;
+	color: white;
+	padding: 10px 40px;
+	align-self: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 16px;
+	font-family: system-ui;
 }
